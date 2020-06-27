@@ -1,0 +1,39 @@
+body{font-family:'Open Sans',sans-serif;}
+
+
+.container-fluid{
+    width: 100%;
+    height: 550px;
+    
+    background-image: url(bck.jpg);
+    background-attachment: fixed;
+    background-position: center;
+	margin: 20px auto;}
+    .cms{height: 0.3%;}
+
+    .container{ margin-top: 23%; background-color:#eaedef ;
+    max-width: 300px;; height: 93%;
+   border-radius: 5px;-moz-box-shadow: 0 0 10px #777777;
+   -webkit-box-shadow: 0 0 10px #61b3bb;
+   box-shadow: 0 0 10px #5892a3;
+    }
+input[type=text]{background-color: #e9ecef; text-align: right; width: 282px}
+    .result {  margin-bottom: 15px; height: 20%;  max-width: 300px; border: 1px solid transparent;}
+    .history{text-align: right;  color: grey; }
+    .output{outline: none; border-width: 0;  width:282px  text-align: right;  color: rgb(136, 19, 19); font-size: 2rem;}
+   .keys{height: 400px;  }
+   
+    .operator, .num, .empty{cursor: pointer;
+       font-weight: bold;
+    margin: 15px 15px; font-size: 1.3rem;
+    height: 45px; width: 45px; float: left; border-width: 0; border-radius: 50%;} 
+    .empty{outline: none;}
+    button:nth-child(12){ box-shadow: 2px 2px 3px rgba(146, 146, 146, 0.767); background-color: rgb(122, 111, 228);}
+    button:nth-child(4){  box-shadow: 2px 2px 3px rgba(146, 146, 146, 0.767); font-size: 20px; background-color: rgb(155, 197, 38);}
+    button:nth-child(8) { box-shadow: 2px 2px 3px rgba(146, 146, 146, 0.767); background-color:rgb(224, 114, 63);}
+    button:nth-child(16){ box-shadow: 2px 2px 3px rgba(146, 146, 146, 0.767); background-color: rgb(228, 209, 38);}
+    button:nth-child(20){ box-shadow: 2px 2px 3px rgba(146, 146, 146, 0.767); background-color: rgb(172, 104, 218);}
+    button:nth-child(1){ font-size: 20px; background-color: rgba(102, 153, 160, 0.075);}
+    button:nth-child(2){ font-size: 20px; background-color: rgba(102, 153, 160, 0.075);}
+    button:nth-child(3){ font-size: 20px; background-color: rgba(102, 153, 160, 0.075);}
+    .operator:focus, .num:focus,  .empty:focus{outline: none; font-size:1rem ;}
